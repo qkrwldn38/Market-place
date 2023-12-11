@@ -8,11 +8,7 @@ import {
   useCreateAuctionListing,
   useCreateDirectListing,
 } from '@thirdweb-dev/react'
-import {
-  MARKETPLACE_ADDRESS,
-  NFT_COLLECTION_ADDRESS,
-  TOKEN_DROP_ADDRESS,
-} from '../const/addresses'
+import { MARKETPLACE_ADDRESS, NFT_COLLECTION_ADDRESS } from '../const/addresses'
 import {
   Box,
   Input,
