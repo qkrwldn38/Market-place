@@ -53,7 +53,6 @@ export default function SaleInfo({ nft }: Props) {
   const { contract: nftCollection } = useContract(NFT_COLLECTION_ADDRESS)
 
   // plan to pay with this token
-  const { contract: tokenDrop } = useContract(TOKEN_DROP_ADDRESS)
 
   const { mutateAsync: createDirectListing } =
     useCreateDirectListing(marketplace)
